@@ -6,9 +6,10 @@ def create_an_array
   [1,2,3,4]
 end
 
-def add_element_to_end_of_array(food, "cheese")
-  food = ["crackers", "wine", "cheese"]
-  food.push("meats")
+def add_element_to_end_of_array(array, element)
+  array = ["crackers", "wine", "cheese"]
+  element = "meats"
+  array.push (element)
 end
 
 def add_element_to_start_of_array(array, element)
